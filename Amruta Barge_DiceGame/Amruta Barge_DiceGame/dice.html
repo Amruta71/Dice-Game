@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Dice Casino Game</title>
+    <link rel="stylesheet" href="Dic.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">🎲 Three Dice Game by Amruta 🎲</h1>
+        
+        <div class="dice-container">
+            <img src="dice1.png" alt="Dice 1" class="dice" id="dice1">
+            <img src="dice1.png" alt="Dice 2" class="dice" id="dice2">
+            <img src="dice1.png" alt="Dice 3" class="dice" id="dice3">
+        </div>
+
+        <button id="rollButton" class="roll-button">Roll the Dice!</button>
+        
+        <div class="scoreboard">
+            <h2>Total Score:</h2>
+            <p id="totalScore">0</p>
+            <h2>Individual Dice Scores:</h2>
+            <p>Dice 1 Score: <span id="dice1Score">0</span></p>
+            <p>Dice 2 Score: <span id="dice2Score">0</span></p>
+            <p>Dice 3 Score: <span id="dice3Score">0</span></p>
+            <p id="winnerMessage"></p>
+        </div>
+    </div>
+
+    <script src="scri.js"></script>
+</body>
+</html>
